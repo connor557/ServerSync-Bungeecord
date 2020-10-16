@@ -1,0 +1,16 @@
+com\AustinPilz\ServerSync\Command\ServerSyncCommand.class
+com\AustinPilz\ServerSync\Components\Queue.class
+com\AustinPilz\ServerSync\PlayerPoints\PlayerPoints.class
+com\AustinPilz\ServerSync\Components\ServerSyncServer.class
+com\AustinPilz\ServerSync\Components\BungeeMessage.class
+com\AustinPilz\ServerSync\MessageRelay\MessageRelayIncoming.class
+com\AustinPilz\ServerSync\Vault\Vault.class
+com\AustinPilz\ServerSync\PlayerPoints\PlayerPointsOutgoing.class
+com\AustinPilz\ServerSync\IO\BungeeOutgoing.class
+com\AustinPilz\ServerSync\MessageRelay\MessageRelay.class
+com\AustinPilz\ServerSync\Vault\VaultIncoming.class
+com\AustinPilz\ServerSync\IO\BungeeIncoming.class
+com\AustinPilz\ServerSync\ServerSync.class
+com\AustinPilz\ServerSync\Vault\VaultOutgoing.class
+com\AustinPilz\ServerSync\MessageRelay\MessageRelayOutgoing.class
+com\AustinPilz\ServerSync\PlayerPoints\PlayerPointsIncoming.class

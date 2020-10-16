@@ -4,31 +4,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
 
-<groupId>com.AustinPilz.ServerSync</groupId>
-<artifactId>ServerSync-Bungeecord</artifactId>
-<version>1.6.4</version>
+<groupId>net.zyrus.bmgr</groupId>
+<artifactId>BMGR-ServerSync-Proxyside</artifactId>
+<version>1.7.1</version>
 
 <repositories>
     <repository>
         <id>bungeecord-repo</id>
         <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+	<repository>
+		<id>minecraft-libraries</id>
+		<name>Minecraft Libraries</name>
+		<url>https://libraries.minecraft.net</url>
+	</repository>
 </repositories>
 
 <dependencies>
     <dependency>
-        <groupId>net.md-5</groupId>
+        <groupId>com.github.HexagonMC.BungeeCord</groupId>
         <artifactId>bungeecord-api</artifactId>
-        <version>1.12-SNAPSHOT</version>
-        <type>jar</type>
-        <scope>provided</scope>
-    </dependency>
-    <dependency>
-        <groupId>net.md-5</groupId>
-        <artifactId>bungeecord-api</artifactId>
-        <version>1.12-SNAPSHOT</version>
-        <type>javadoc</type>
-        <scope>provided</scope>
+        <version>267</version>
     </dependency>
 </dependencies>
 
@@ -57,7 +57,7 @@
             <artifactId>maven-jar-plugin</artifactId>
             <version>3.0.2</version>
             <configuration>
-                <outputDirectory>/Users/austinpilz/Desktop/Minecraft Server Spigot/Plugins/</outputDirectory>
+                <outputDirectory>/Users/OBriens/Documents/Connor/Code For Zyrus/ServerSync-Bungeecord/bin</outputDirectory>
             </configuration>
         </plugin>
     </plugins>
